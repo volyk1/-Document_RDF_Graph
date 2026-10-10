@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Архів документів — RDF Graph</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1>Архів документів</h1>
+  </header>
+  <main class="layout">
+    <aside class="catalog panel">
+      <div class="panel-heading">
+        <h2>Каталог документів</h2>
+      </div>
+      <div class="search-box">
+        <span>⌕</span><input id="search" type="search" placeholder="Пошук документів…">
+      </div>
+      <div id="document-list" class="document-list"></div>
+      <label class="upload-button">Завантажити RDF
+        <input id="rdf-file" type="file" accept=".ttl,.rdf,.nt,text/turtle,application/rdf+xml">
+      </label>
+    </aside>
+    <section class="workspace panel">
+      <div class="panel-heading">
+        <h2>Граф зв’язків</h2>
+      </div>
+      <div id="graph" class="graph-canvas"></div>
+      <div class="legend">
+        <span><i class="legend-document"></i> Документ</span>
+        <span><i class="legend-keyword"></i> Ключове слово</span>
+        <span><i class="legend-act"></i> Правовий акт</span>
+      </div>
+    </section>
+  </main>
+  <div id="toast" class="toast"></div>
+  <script src="/app.js"></script>
+</body>
+</html>

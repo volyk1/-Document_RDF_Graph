@@ -1,0 +1,134 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ex: <http://example.com/> .
+
+ex:Document rdf:type owl:Class ;
+	rdfs:label "Документ" .
+
+ex:LegalAct rdf:type owl:Class ;
+	rdfs:label "Нормативно-правовий акт" .
+
+ex:document_18_Kh2o2Fnm8gADnX-Teu6-FnLqIYeC1B ex:crossReference ex:legalAct_%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%9A%D0%B0%D0%B1%D1%96%D0%BD%D0%B5%D1%82%D1%83%20%D0%9C%D1%96%D0%BD%D1%96%D1%81%D1%82%D1%80%D1%96%D0%B2%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%20%D0%B2%D1%96%D0%B4%2016%20%D0%B2%D0%B5%D1%80%D0%B5%D1%81%D0%BD%D1%8F%202004%20%D1%80%D0%BE%D0%BA%D1%83%20%E2%84%96%201208%2C%20%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%9A%D0%B0%D0%B1%D1%96%D0%BD%D0%B5%D1%82%D1%83%20%D0%9C%D1%96%D0%BD%D1%96%D1%81%D1%82%D1%80%D1%96%D0%B2%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%20%D0%B2%D1%96%D0%B4%2021%20%D1%81%D0%B5%D1%80%D0%BF%D0%BD%D1%8F%202000%20%D1%80%D0%BE%D0%BA%D1%83%20%E2%84%96%201290%2C%20%D0%A2%D0%B8%D0%BF%D0%BE%D0%B2%D0%B5%20%D0%BF%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%BF%D1%80%D0%BE%20%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C%20%D0%B0%D0%BF%D0%B0%D1%80%D0%B0%D1%82%D1%83%20%D0%9A%D0%B8%D1%97%D0%B2%D1%81%D1%8C%D0%BA%D0%BE%D1%97%20%D1%82%D0%B0%20%D0%A1%D0%B5%D0%B2%D0%B0%D1%81%D1%82%D0%BE%D0%BF%D0%BE%D0%BB%D1%8C%D1%81%D1%8C%D0%BA%D0%BE%D1%97%20%D0%BC%D1%96%D1%81%D1%8C%D0%BA%D0%BE%D1%97%20%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%B2%D0%BD%D0%BE%D1%97%20%D0%B0%D0%B4%D0%BC%D1%96%D0%BD%D1%96%D1%81%D1%82%D1%80%D0%B0%D1%86%D1%96%D1%97 ;
+	ex:date "2026-10-09T23:47:15.977+03:00" ;
+	ex:format "png" ;
+	ex:keywords "контроль, адміністрація, виконавча влада, місцеве самоврядування, документи" ;
+	ex:legalType "Розпорядження" ;
+	ex:name "id10642.png" ;
+	ex:notes "Документ стосується організації контролю виконавчої влади та місцевого самоврядування в Івано-Франківській області." ;
+	ex:recognizedDocument "https://drive.google.com/file/d/1-ruuxMliA4d7ooPvh7Gj4z1SCL06fRnf/view" ;
+	ex:sourceDocument "https://drive.google.com/uc?id=18_Kh2o2Fnm8gADnX-Teu6-FnLqIYeC1B&export=download" ;
+	rdf:type ex:Document .
+
+ex:document_1D_-wEo8l8UYEZBCWOM-pirzEvg9OdXEN ex:crossReference ex:legalAct_%D0%A3%D0%BA%D0%B0%D0%B7%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%20%22%D0%9F%D1%80%D0%BE%20%D0%B7%D0%BC%D1%96%D1%86%D0%BD%D0%B5%D0%BD%D0%BD%D1%8F%20%D1%80%D0%B5%D0%B6%D0%B8%D0%BC%D1%83%20%D0%B2%D0%BE%D1%94%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE%20%D1%81%D1%82%D0%B0%D0%BD%D1%83%22%2C%20%D0%A3%D0%BA%D0%B0%D0%B7%20%D0%9F%D1%80%D0%B5%D0%B7%D0%B8%D0%B4%D0%B5%D0%BD%D1%82%D0%B0%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%20%D0%B2%D1%96%D0%B4%2024.02.2022%20%E2%84%96%2068%2F2022%20%22%D0%9F%D1%80%D0%BE%20%D1%83%D1%82%D0%B2%D0%BE%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%B2%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%BE%D0%B2%D0%B8%D1%85%20%D0%B0%D0%B4%D0%BC%D1%96%D0%BD%D1%96%D1%81%D1%82%D1%80%D0%B0%D1%86%D1%96%D0%B9%22%2C%20%D0%9F%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%BF%D1%80%D0%BE%20%D0%A0%D0%B0%D0%B4%D1%83%20%D0%B1%D0%B5%D0%B7%D0%B7%2A%D0%BE%D1%80%D0%BE%D0%B6%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%BE%D1%80%D1%83%20%D0%BF%D1%80%D0%B8%20%D0%86%D0%B2%D0%B0%D0%BD%D0%BE-%D0%A4%D1%80%D0%B0%D0%BD%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D1%96%D0%B9%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D0%BD%D1%96%D0%B9%20%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%B2%D0%BD%D1%96%D0%B9%20%28%D0%B2%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%BE%D0%B2%D1%96%D0%B9%29%20%D0%B0%D0%B4%D0%BC%D1%96%D0%BD%D1%96%D1%81%D1%82%D1%80%D0%B0%D1%86%D1%96%D1%97%2C%20%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B8%D1%82%D1%83%D1%86%D1%96%D1%8F%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%2C%20%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%D0%B8%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%2C%20%D0%90%D0%BA%D0%B0%D1%82%D0%B8%20%D0%A3%D0%BA%D0%B0%D0%B7%D1%83%20%D0%9F%D1%80%D0%B5%D0%B7%D0%B8%D0%B4%D0%B5%D0%BD%D1%82%D0%B0%20%D1%82%D0%B0%20%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%20%D0%92%D0%B5%D1%80%D1%85%D0%BE%D0%B2%D0%BD%D0%BE%D1%97%20%D0%A0%D0%B0%D0%B4%D0%B8%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%2C%20%D0%90%D0%BA%D0%B0%D1%82%D0%B8%20%D0%9A%D0%B0%D0%B1%D1%96%D0%BD%D0%B5%D1%82%D1%83%20%D0%9C%D1%96%D0%BD%D1%96%D1%81%D1%82%D1%80%D1%96%D0%B2%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%2C%20%D0%9C%D1%96%D0%BD%D1%96%D1%81%D1%82%D0%B5%D1%80%D1%81%D1%82%D0%B2%D0%B0%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%2C%20%D0%86%D0%BD%D1%88%D1%96%20%D0%B0%D0%BA%D1%82%D0%B8%20%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD%D0%BE%D0%B4%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D0%B0%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%2C%20%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%86%D0%B2%D0%B0%D0%BD%D0%BE-%D0%A4%D1%80%D0%B0%D0%BD%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%BE%D1%97%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D0%BD%D0%BE%D1%97%20%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%B2%D0%BD%D0%BE%D1%97%20%D0%B0%D0%B4%D0%BC%D1%96%D0%BD%D1%96%D1%81%D1%82%D1%80%D0%B0%D1%86%D1%96%D1%97%20%D0%B2%D1%96%D0%B4%2013.12.2022%20%E2%84%96%205289 ;
+	ex:date "2026-10-09T23:56:00.494+03:00" ;
+	ex:format "png" ;
+	ex:keywords "Рада безз*орожного простору, Івано-Франківська обласна державна адміністрація, без*орожний простір, освіта, здоров'я, соціальна політика" ;
+	ex:legalType "Рozporyadzhennya" ;
+	ex:name "id739638.png" ;
+	ex:notes "Рада безз*орожного простору утворена для створення безпечного середовища для всіх груп населення, забезпечення прав та можливостей осіб з інвалідністю, а також проведення заходів для забезпечення реалізації державної політики в сфері створення безз*орожного простору на території Івано-Франківської області." ;
+	ex:recognizedDocument "https://drive.google.com/file/d/1NCmPjEs6dWpvgFZybX0IpZOcYrOdQgTV/view" ;
+	ex:sourceDocument "https://drive.google.com/uc?id=1D_-wEo8l8UYEZBCWOM-pirzEvg9OdXEN&export=download" ;
+	rdf:type ex:Document .
+
+ex:document_1FF9CxVOs5bbnK1n2L3ri1Nl1ZjxYmUur ex:crossReference ex:legalAct_%D0%A3%D0%BA%D0%B0%D0%B7%20%D0%9F%D1%80%D0%B5%D0%B7%D0%B8%D0%B4%D0%B5%D0%BD%D1%82%D0%B0%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%20%D0%B2%D1%96%D0%B4%2003.12.2015%20%E2%84%96%20678%2F205%2C%20%D0%A3%D0%BA%D0%B0%D0%B7%20%D0%9F%D1%80%D0%B5%D0%B7%D0%B8%D0%B4%D0%B5%D0%BD%D1%82%D0%B0%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%20%D0%B2%D1%96%D0%B4%2019.02.2013%20%E2%84%96%20140%2F2013%2C%20%D0%A3%D0%BA%D0%B0%D0%B7%20%D0%9F%D1%80%D0%B5%D0%B7%D0%B8%D0%B4%D0%B5%D0%BD%D1%82%D0%B0%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%20%D0%B2%D1%96%D0%B4%2014.05.2010%20%E2%84%96%2014%2F9 ;
+	ex:date "2026-10-10T00:10:42.141+03:00" ;
+	ex:format "png" ;
+	ex:keywords "план роботи, Івано-Франківська обласна державна адміністрація, перспективний план, організація, управління" ;
+	ex:legalType "Розпорядження" ;
+	ex:name "id416318.png" ;
+	ex:notes "Документ містить розпорядження голови Івано-Франківської обласної державної адміністрації щодо затвердження перспективного плану роботи адміністрації на 2022 рік, який передбачає виконання завдань щодо організації роботи адміністрації та виконання вказівок Президента України." ;
+	ex:recognizedDocument "https://drive.google.com/file/d/1AK4e209XpGsbDlvrMDx8sJzo9hrMqlMP/view" ;
+	ex:sourceDocument "https://drive.google.com/uc?id=1FF9CxVOs5bbnK1n2L3ri1Nl1ZjxYmUur&export=download" ;
+	rdf:type ex:Document .
+
+ex:document_1GBhGCqWsMNpAclSXE4b350fCXQml9ClM ex:crossReference ex:legalAct_%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%20%C2%AB%D0%9F%D1%80%D0%BE%20%D1%81%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D1%83%20%D1%81%D0%BE%D0%B2%D1%96%D1%81%D1%82%D1%96%20%D1%82%D0%B0%20%D1%80%D0%B5%D0%BB%D1%96%D0%B3%D1%96%D0%B9%D0%BD%D1%96%20%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D1%96%D0%B7%D0%B0%D1%86%D1%96%D1%97%C2%BB ;
+	ex:date "2026-10-09T13:35:08.833+03:00" ;
+	ex:format "png" ;
+	ex:keywords "реєстрація, статут, релігійні громади, Україна, Івано-Франківська область" ;
+	ex:legalType "Розпорядження" ;
+	ex:name "id234216.png" ;
+	ex:notes "Даний документ стосується реєстрації нових редакцій статутів релігійних громад у різних селах Івано-Франківської області України." ;
+	ex:recognizedDocument "https://drive.google.com/file/d/1p8WxfY78rjntlEU31hgDcwVLSNjIb8tH/view" ;
+	ex:sourceDocument "https://drive.google.com/uc?id=1GBhGCqWsMNpAclSXE4b350fCXQml9ClM&export=download" ;
+	rdf:type ex:Document .
+
+ex:document_1THLmXSKHns7iRb1PSQPuG9g1XRviN5bP ex:crossReference ex:legalAct_%D0%94%D0%BE%D0%B4%D0%B0%D1%82%D0%BE%D0%BA%20%D0%B4%D0%BE%20%D1%80%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%BE%D0%B1%D0%BB%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%B4%D0%BC%D1%96%D0%BD%D1%96%D1%81%D1%82%D1%80%D0%B0%D1%86%D1%96%D1%97 ;
+	ex:date "2026-10-09T23:09:08.473+03:00" ;
+	ex:format "png" ;
+	ex:keywords "розпорядження, передача техніки, органі executives, інформаційно-комп'ютерне забезпечення" ;
+	ex:legalType "Розпорядження" ;
+	ex:name "id7323.png" ;
+	ex:notes "Документ стосується передачі комп'ютерної техніки органам виконавчої влади області." ;
+	ex:recognizedDocument "https://drive.google.com/file/d/1T5xVNRFo1j7D6ZCl2hwJ_LGyQtyUETO8/view" ;
+	ex:sourceDocument "https://drive.google.com/uc?id=1THLmXSKHns7iRb1PSQPuG9g1XRviN5bP&export=download" ;
+	rdf:type ex:Document .
+
+ex:document_1cGanGVyOk5lv2eUahJwOj5FehTupKCY4 ex:crossReference ex:legalAct_%D0%9F%D1%80%D0%BE%20%D0%BC%D1%96%D1%81%D1%86%D0%B5%D0%B2%D1%96%20%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%B2%D0%BD%D1%96%20%D0%B0%D0%B4%D0%BC%D1%96%D0%BD%D1%96%D1%81%D1%82%D1%80%D0%B0%D1%86%D1%96%D1%97%2C%20%D0%9F%D1%80%D0%BE%20%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D0%B2%D0%B8%D0%B9%20%D1%80%D0%B5%D0%B6%D0%B8%D0%BC%20%D0%B2%D0%BE%D1%94%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE%20%D1%81%D1%82%D0%B0%D0%BD%D1%83%2C%20%D0%9B%D1%96%D1%81%D0%BE%D0%B2%D0%B8%D0%B9%20%D0%BA%D0%BE%D0%B4%D0%B5%D0%BA%D1%81%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%2C%20%D0%A3%D0%BA%D0%B0%D0%B7%20%D0%9F%D1%80%D0%B5%D0%B7%D0%B8%D0%B4%D0%B5%D0%BD%D1%82%D0%B0%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%20%D0%B2%D1%96%D0%B4%2024.02.2022%20%E2%84%96%2068%2F222%2C%20%D0%A3%D0%BA%D0%B0%D0%B7%20%D0%9F%D1%80%D0%B5%D0%B7%D0%B8%D0%B4%D0%B5%D0%BD%D1%82%D0%B0%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%20%D0%B2%D1%96%D0%B4%2024.02.2022%20%E2%84%96%2064%2F2022%2C%20%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%20%D0%B2%D1%96%D0%B4%2024.02.2022%20%E2%84%96%202102-IX%2C%20%D0%9F%D0%BE%D1%80%D1%8F%D0%B4%D0%BE%D0%BA%20%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D1%96%D0%B7%D0%B0%D1%86%D1%96%D1%97%20%D0%BE%D1%85%D0%BE%D1%80%D0%BE%D0%BD%D0%B8%20%D1%96%20%D0%B7%D0%B0%D1%85%D0%B8%D1%81%D1%82%D1%83%20%D0%BB%D1%96%D1%81%D1%96%D0%B2%2C%20%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0%20%D0%BF%D0%BE%D0%B6%D0%B5%D0%B6%D0%BD%D0%BE%D1%97%20%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D0%BA%D0%B8%20%D0%B2%20%D0%BB%D1%96%D1%81%D0%B0%D1%85%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%2C%20%D0%9B%D0%B8%D1%81%D1%82%20%D0%97%D0%B0%D1%85%D1%96%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BC%D1%96%D0%B6%D1%80%D0%B5%D0%B3%D1%96%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE%20%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%96%D0%BD%D0%BD%D1%8F%20%D0%BB%D1%96%D1%81%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%82%D0%B0%20%D0%BC%D0%B8%D1%81%D0%BB%D0%B8%D0%B2%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE%20%D0%B3%D0%BE%D1%81%D0%BF%D0%BE%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B0 ;
+	ex:date "2026-10-09T23:13:04.652+03:00" ;
+	ex:format "png" ;
+	ex:keywords "запобігання пожеж, лісовий фонд, Івано-Франківська область, пожежна небезпека" ;
+	ex:legalType "Р Rozporyadzhennya (Розпорядження)" ;
+	ex:name "id633245.png" ;
+	ex:notes "Уряд України затвердив розпорядження про тимчасову заборону в'їзду до лісового фонду Івано-Франківської області у період високої пожежної небезпеки. Заборона застосовується для запобігання виникнення пожеж у лісах та їх мінімізації." ;
+	ex:recognizedDocument "https://drive.google.com/file/d/1alJ0mO0_iIdnaO5u3-zd2WmZsfye0UKa/view" ;
+	ex:sourceDocument "https://drive.google.com/uc?id=1cGanGVyOk5lv2eUahJwOj5FehTupKCY4&export=download" ;
+	rdf:type ex:Document .
+
+ex:document_1h0BHQfHW-h4n2WGFCAVQjjJgq2jy74sN ex:crossReference ex:legalAct_%D0%97%D0%B5%D0%BC%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9%20%D0%BA%D0%BE%D0%B4%D0%B5%D0%BA%D1%81%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%2C%20%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%20%C2%AB%D0%9F%D1%80%D0%BE%20%D0%BE%D1%80%D0%B5%D0%BD%D0%B4%D1%83%20%D0%B7%D0%B5%D0%BC%D0%BB%D1%96%C2%BB ;
+	ex:date "2026-10-09T22:44:36.821+03:00" ;
+	ex:format "png" ;
+	ex:keywords "розпорядження, земля, оренда, ПП Троянські гіпси, Івано-Франківська обласна державна адміністрація" ;
+	ex:legalType "Розпорядження" ;
+	ex:name "id44579.png" ;
+	ex:notes "Рішення щодо надання земельних ділянок для розробки родовища гіпсу компанії ПП Троянські гіпси" ;
+	ex:recognizedDocument "https://drive.google.com/file/d/18U1OT7qq7Pa8YGWMdufSebOiozz4j6QI/view" ;
+	ex:sourceDocument "https://drive.google.com/uc?id=1h0BHQfHW-h4n2WGFCAVQjjJgq2jy74sN&export=download" ;
+	rdf:type ex:Document .
+
+ex:document_1jPnjrXApct6uwg1IUtehasD3f7gxB5sH ex:crossReference ex:legalAct_%D0%97%D0%B5%D0%BC%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9%20%D0%BA%D0%BE%D0%B4%D0%B5%D0%BA%D1%81%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8 ;
+	ex:date "2026-10-09T13:31:30.703+03:00" ;
+	ex:format "png" ;
+	ex:keywords "Український мобільний зв’язок, місце розташування, земельна ділянка, будівництво, контейнер, вежа стільникового зв’язку" ;
+	ex:legalType "Розпорядження" ;
+	ex:name "id14263.png" ;
+	ex:notes "Погодження місця розташування земельної ділянки під будівництво контейнера та вежі стільникового зв’язку компанії 'Український мобільний зв’язок'" ;
+	ex:recognizedDocument "https://drive.google.com/file/d/1b1bTstUal3LMXZD-zWwPE8hJJZ0tpqu5/view" ;
+	ex:sourceDocument "https://drive.google.com/uc?id=1jPnjrXApct6uwg1IUtehasD3f7gxB5sH&export=download" ;
+	rdf:type ex:Document .
+
+ex:document_1xr1K53Hh5rMTbp8RX735OU0FblQmwwCy ex:crossReference ex:legalAct_%D0%97%D0%B5%D0%BC%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9%20%D0%BA%D0%BE%D0%B4%D0%B5%D0%BA%D1%81%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8 ;
+	ex:date "2026-10-09T13:33:50.269+03:00" ;
+	ex:format "png" ;
+	ex:keywords "розпорядження, земельні ділянки, оренда, ТЗОВ Домобудівник" ;
+	ex:legalType "Розпорядження" ;
+	ex:name "документ №695_0_3-04 id10635.png" ;
+	ex:notes "Рішення про надання земельних ділянок для використання виробничими приміщеннями компанії ТЗОВ \"Домобудівник\"" ;
+	ex:recognizedDocument "https://drive.google.com/file/d/126paVoihEunjQLBu3g4lReNMw_2ArJLd/view" ;
+	ex:sourceDocument "https://drive.google.com/uc?id=1xr1K53Hh5rMTbp8RX735OU0FblQmwwCy&export=download" ;
+	rdf:type ex:Document .
+
+ex:legalAct_%D0%94%D0%BE%D0%B4%D0%B0%D1%82%D0%BE%D0%BA%20%D0%B4%D0%BE%20%D1%80%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%BE%D0%B1%D0%BB%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%B4%D0%BC%D1%96%D0%BD%D1%96%D1%81%D1%82%D1%80%D0%B0%D1%86%D1%96%D1%97 rdf:type ex:LegalAct ;
+	rdfs:label "Додаток до розпорядження облдержадміністрації" .
+
+ex:legalAct_%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%20%C2%AB%D0%9F%D1%80%D0%BE%20%D1%81%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D1%83%20%D1%81%D0%BE%D0%B2%D1%96%D1%81%D1%82%D1%96%20%D1%82%D0%B0%20%D1%80%D0%B5%D0%BB%D1%96%D0%B3%D1%96%D0%B9%D0%BD%D1%96%20%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D1%96%D0%B7%D0%B0%D1%86%D1%96%D1%97%C2%BB rdf:type ex:LegalAct ;
+	rdfs:label "Закон України «Про свободу совісті та релігійні організації»" .
+
+ex:legalAct_%D0%97%D0%B5%D0%BC%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9%20%D0%BA%D0%BE%D0%B4%D0%B5%D0%BA%D1%81%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8 rdf:type ex:LegalAct ;
+	rdfs:label "Земельний кодекс України" .
+
+ex:legalAct_%D0%97%D0%B5%D0%BC%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9%20%D0%BA%D0%BE%D0%B4%D0%B5%D0%BA%D1%81%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%2C%20%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%20%C2%AB%D0%9F%D1%80%D0%BE%20%D0%BE%D1%80%D0%B5%D0%BD%D0%B4%D1%83%20%D0%B7%D0%B5%D0%BC%D0%BB%D1%96%C2%BB rdf:type ex:LegalAct ;
+	rdfs:label "Земельний кодекс України, Закон України «Про оренду землі»" .
+
+ex:legalAct_%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%9A%D0%B0%D0%B1%D1%96%D0%BD%D0%B5%D1%82%D1%83%20%D0%9C%D1%96%D0%BD%D1%96%D1%81%D1%82%D1%80%D1%96%D0%B2%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%20%D0%B2%D1%96%D0%B4%2016%20%D0%B2%D0%B5%D1%80%D0%B5%D1%81%D0%BD%D1%8F%202004%20%D1%80%D0%BE%D0%BA%D1%83%20%E2%84%96%201208%2C%20%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%9A%D0%B0%D0%B1%D1%96%D0%BD%D0%B5%D1%82%D1%83%20%D0%9C%D1%96%D0%BD%D1%96%D1%81%D1%82%D1%80%D1%96%D0%B2%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%20%D0%B2%D1%96%D0%B4%2021%20%D1%81%D0%B5%D1%80%D0%BF%D0%BD%D1%8F%202000%20%D1%80%D0%BE%D0%BA%D1%83%20%E2%84%96%201290%2C%20%D0%A2%D0%B8%D0%BF%D0%BE%D0%B2%D0%B5%20%D0%BF%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%BF%D1%80%D0%BE%20%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C%20%D0%B0%D0%BF%D0%B0%D1%80%D0%B0%D1%82%D1%83%20%D0%9A%D0%B8%D1%97%D0%B2%D1%81%D1%8C%D0%BA%D0%BE%D1%97%20%D1%82%D0%B0%20%D0%A1%D0%B5%D0%B2%D0%B0%D1%81%D1%82%D0%BE%D0%BF%D0%BE%D0%BB%D1%8C%D1%81%D1%8C%D0%BA%D0%BE%D1%97%20%D0%BC%D1%96%D1%81%D1%8C%D0%BA%D0%BE%D1%97%20%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%B2%D0%BD%D0%BE%D1%97%20%D0%B0%D0%B4%D0%BC%D1%96%D0%BD%D1%96%D1%81%D1%82%D1%80%D0%B0%D1%86%D1%96%D1%97 rdf:type ex:LegalAct ;
+	rdfs:label "Постанова Кабінету Міністрів України від 16 вересня 2004 року № 1208, Постанова Кабінету Міністрів України від 21 серпня 2000 року № 1290, Типове положення про контроль апарату Київської та Севастопольської міської державної адміністрації" .
+
+ex:legalAct_%D0%9F%D1%80%D0%BE%20%D0%BC%D1%96%D1%81%D1%86%D0%B5%D0%B2%D1%96%20%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%B2%D0%BD%D1%96%20%D0%B0%D0%B4%D0%BC%D1%96%D0%BD%D1%96%D1%81%D1%82%D1%80%D0%B0%D1%86%D1%96%D1%97%2C%20%D0%9F%D1%80%D0%BE%20%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D0%B2%D0%B8%D0%B9%20%D1%80%D0%B5%D0%B6%D0%B8%D0%BC%20%D0%B2%D0%BE%D1%94%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE%20%D1%81%D1%82%D0%B0%D0%BD%D1%83%2C%20%D0%9B%D1%96%D1%81%D0%BE%D0%B2%D0%B8%D0%B9%20%D0%BA%D0%BE%D0%B4%D0%B5%D0%BA%D1%81%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%2C%20%D0%A3%D0%BA%D0%B0%D0%B7%20%D0%9F%D1%80%D0%B5%D0%B7%D0%B8%D0%B4%D0%B5%D0%BD%D1%82%D0%B0%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%20%D0%B2%D1%96%D0%B4%2024.02.2022%20%E2%84%96%2068%2F222%2C%20%D0%A3%D0%BA%D0%B0%D0%B7%20%D0%9F%D1%80%D0%B5%D0%B7%D0%B8%D0%B4%D0%B5%D0%BD%D1%82%D0%B0%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%20%D0%B2%D1%96%D0%B4%2024.02.2022%20%E2%84%96%2064%2F2022%2C%20%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%20%D0%B2%D1%96%D0%B4%2024.02.2022%20%E2%84%96%202102-IX%2C%20%D0%9F%D0%BE%D1%80%D1%8F%D0%B4%D0%BE%D0%BA%20%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D1%96%D0%B7%D0%B0%D1%86%D1%96%D1%97%20%D0%BE%D1%85%D0%BE%D1%80%D0%BE%D0%BD%D0%B8%20%D1%96%20%D0%B7%D0%B0%D1%85%D0%B8%D1%81%D1%82%D1%83%20%D0%BB%D1%96%D1%81%D1%96%D0%B2%2C%20%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0%20%D0%BF%D0%BE%D0%B6%D0%B5%D0%B6%D0%BD%D0%BE%D1%97%20%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D0%BA%D0%B8%20%D0%B2%20%D0%BB%D1%96%D1%81%D0%B0%D1%85%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%2C%20%D0%9B%D0%B8%D1%81%D1%82%20%D0%97%D0%B0%D1%85%D1%96%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BC%D1%96%D0%B6%D1%80%D0%B5%D0%B3%D1%96%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE%20%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%96%D0%BD%D0%BD%D1%8F%20%D0%BB%D1%96%D1%81%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%82%D0%B0%20%D0%BC%D0%B8%D1%81%D0%BB%D0%B8%D0%B2%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE%20%D0%B3%D0%BE%D1%81%D0%BF%D0%BE%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B0 rdf:type ex:LegalAct ;
+	rdfs:label "Про місцеві державні адміністрації, Про правовий режим воєнного стану, Лісовий кодекс України, Указ Президента України від 24.02.2022 № 68/222, Указ Президента України від 24.02.2022 № 64/2022, Закон України від 24.02.2022 № 2102-IX, Порядок організації охорони і захисту лісів, Правила пожежної безпеки в лісах України, Лист Західного міжрегіонального управління лісового та мисливського господарства" .
+
+ex:legalAct_%D0%A3%D0%BA%D0%B0%D0%B7%20%D0%9F%D1%80%D0%B5%D0%B7%D0%B8%D0%B4%D0%B5%D0%BD%D1%82%D0%B0%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%20%D0%B2%D1%96%D0%B4%2003.12.2015%20%E2%84%96%20678%2F205%2C%20%D0%A3%D0%BA%D0%B0%D0%B7%20%D0%9F%D1%80%D0%B5%D0%B7%D0%B8%D0%B4%D0%B5%D0%BD%D1%82%D0%B0%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%20%D0%B2%D1%96%D0%B4%2019.02.2013%20%E2%84%96%20140%2F2013%2C%20%D0%A3%D0%BA%D0%B0%D0%B7%20%D0%9F%D1%80%D0%B5%D0%B7%D0%B8%D0%B4%D0%B5%D0%BD%D1%82%D0%B0%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%20%D0%B2%D1%96%D0%B4%2014.05.2010%20%E2%84%96%2014%2F9 rdf:type ex:LegalAct ;
+	rdfs:label "Указ Президента України від 03.12.2015 № 678/205, Указ Президента України від 19.02.2013 № 140/2013, Указ Президента України від 14.05.2010 № 14/9" .
+
+ex:legalAct_%D0%A3%D0%BA%D0%B0%D0%B7%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%20%22%D0%9F%D1%80%D0%BE%20%D0%B7%D0%BC%D1%96%D1%86%D0%BD%D0%B5%D0%BD%D0%BD%D1%8F%20%D1%80%D0%B5%D0%B6%D0%B8%D0%BC%D1%83%20%D0%B2%D0%BE%D1%94%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE%20%D1%81%D1%82%D0%B0%D0%BD%D1%83%22%2C%20%D0%A3%D0%BA%D0%B0%D0%B7%20%D0%9F%D1%80%D0%B5%D0%B7%D0%B8%D0%B4%D0%B5%D0%BD%D1%82%D0%B0%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%20%D0%B2%D1%96%D0%B4%2024.02.2022%20%E2%84%96%2068%2F2022%20%22%D0%9F%D1%80%D0%BE%20%D1%83%D1%82%D0%B2%D0%BE%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%B2%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%BE%D0%B2%D0%B8%D1%85%20%D0%B0%D0%B4%D0%BC%D1%96%D0%BD%D1%96%D1%81%D1%82%D1%80%D0%B0%D1%86%D1%96%D0%B9%22%2C%20%D0%9F%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%BF%D1%80%D0%BE%20%D0%A0%D0%B0%D0%B4%D1%83%20%D0%B1%D0%B5%D0%B7%D0%B7%2A%D0%BE%D1%80%D0%BE%D0%B6%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%BE%D1%80%D1%83%20%D0%BF%D1%80%D0%B8%20%D0%86%D0%B2%D0%B0%D0%BD%D0%BE-%D0%A4%D1%80%D0%B0%D0%BD%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D1%96%D0%B9%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D0%BD%D1%96%D0%B9%20%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%B2%D0%BD%D1%96%D0%B9%20%28%D0%B2%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%BE%D0%B2%D1%96%D0%B9%29%20%D0%B0%D0%B4%D0%BC%D1%96%D0%BD%D1%96%D1%81%D1%82%D1%80%D0%B0%D1%86%D1%96%D1%97%2C%20%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B8%D1%82%D1%83%D1%86%D1%96%D1%8F%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%2C%20%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%D0%B8%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%2C%20%D0%90%D0%BA%D0%B0%D1%82%D0%B8%20%D0%A3%D0%BA%D0%B0%D0%B7%D1%83%20%D0%9F%D1%80%D0%B5%D0%B7%D0%B8%D0%B4%D0%B5%D0%BD%D1%82%D0%B0%20%D1%82%D0%B0%20%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%20%D0%92%D0%B5%D1%80%D1%85%D0%BE%D0%B2%D0%BD%D0%BE%D1%97%20%D0%A0%D0%B0%D0%B4%D0%B8%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%2C%20%D0%90%D0%BA%D0%B0%D1%82%D0%B8%20%D0%9A%D0%B0%D0%B1%D1%96%D0%BD%D0%B5%D1%82%D1%83%20%D0%9C%D1%96%D0%BD%D1%96%D1%81%D1%82%D1%80%D1%96%D0%B2%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%2C%20%D0%9C%D1%96%D0%BD%D1%96%D1%81%D1%82%D0%B5%D1%80%D1%81%D1%82%D0%B2%D0%B0%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%2C%20%D0%86%D0%BD%D1%88%D1%96%20%D0%B0%D0%BA%D1%82%D0%B8%20%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD%D0%BE%D0%B4%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D0%B0%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%2C%20%D0%A0%D0%BE%D0%B7%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%86%D0%B2%D0%B0%D0%BD%D0%BE-%D0%A4%D1%80%D0%B0%D0%BD%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%BE%D1%97%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D0%BD%D0%BE%D1%97%20%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%B2%D0%BD%D0%BE%D1%97%20%D0%B0%D0%B4%D0%BC%D1%96%D0%BD%D1%96%D1%81%D1%82%D1%80%D0%B0%D1%86%D1%96%D1%97%20%D0%B2%D1%96%D0%B4%2013.12.2022%20%E2%84%96%205289 rdf:type ex:LegalAct ;
+	rdfs:label "Указ України \"Про зміцнення режиму воєнного стану\", Указ Президента України від 24.02.2022 № 68/2022 \"Про утворення військових адміністрацій\", Положення про Раду безз*орожного простору при Івано-Франківській обласній державній (військовій) адміністрації, Конституція України, Закони України, Акати Указу Президента та постанов Верховної Ради України, Акати Кабінету Міністрів України, Міністерства України, Інші акти законодавства України, Розпорядження Івано-Франківської обласної державної адміністрації від 13.12.2022 № 5289" .
+
